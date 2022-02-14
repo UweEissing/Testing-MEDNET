@@ -177,11 +177,11 @@ public class Program
         }
         
     }
-   
+   //hallo Woerld
     public static void Main(string[] args)
         {
         Program a = new Program();
-        a.TestOrdner(@"D:\ab\1" , @"D:\ab\2");
+       // a.TestOrdner(@"D:\ab\1" , @"D:\ab\2");
         a.Compare("D:\\ab\\2\\a.txt", "D:\\ab\\2\\a.txt");
         a.Compare("D:\\ab\\2\\c.txt", "D:\\ab\\2\\d.txt");
         a.CompareFileBytes("D:\\ab\\2\\Praxisphasenvertrag.pdf", "D:\\ab\\2\\Zulassungsantrag_Praxisphase_FB_Technik.pdf");
