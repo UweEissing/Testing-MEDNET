@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AssemblyName>portas</AssemblyName>
+    <Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ChoETL.NETStandard" Version="1.2.1.42" />
+    <PackageReference Include="NETStandard.Library" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\MEDICUSplus\BasisProjekte\jsSessLog\jsSessLog.csproj" />
+    <ProjectReference Include="..\..\..\jsUtils\jsPUtils.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "portTester": {
+      "commandName": "Project",
+      "commandLineArgs": "-vz1:d:\\test\\porttester\\a1 -vz2:d:\\test\\porttester\\a2"
+    }
+  }
+}
